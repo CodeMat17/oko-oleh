@@ -62,7 +62,7 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
           {images.map((image, index) => (
             <motion.div
               key={index}
-              className='relative min-w-[300px] flex-shrink-0'
+              className='relative min-w-[300px] flex-shrink-0 py-6'
               initial={{ opacity: 0, x: 100 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}>
@@ -72,7 +72,7 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
                   alt={image.title}
                   width={300}
                   height={200}
-                  className='rounded-lg cursor-pointer shadow-lg border'
+                  className='rounded-lg cursor-pointer shadow-lg border  h-[400px]'
                   onClick={() => openModal(image.src)}
                 />
                 {/* <div className='absolute bottom-0 w-full bg-black bg-opacity-50 text-white p-2 text-center rounded-b-lg'>

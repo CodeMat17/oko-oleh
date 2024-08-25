@@ -15,7 +15,7 @@ export const images = [
     src: "/pdfs/7WhatsApp Image 2024-08-05 at 19.43.20_5c49eb94.jpg",
     title: "Image 7",
   },
-  { src: "/pdfs/8Scan_27_(1)_240805_193320[1].png", title: "Image 8" },
+  { src: "/pdfs/8Scan_27_(1)_240805_193320[1].jpg", title: "Image 8" },
   {
     src: "/pdfs/9Prof_AKINOLA'S_tRIBUTE_240805_193359[1].png",
     title: "Image 9",
