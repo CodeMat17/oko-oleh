@@ -12,7 +12,7 @@ const Appreciation = () => {
           priority
           width={150}
           height={150}
-          src='/oko_appreciation.jpg'
+          src='/oko_appreciation.webp'
           className="rounded-full shadow-lg w-[150px] h-[200px]"
         />
       </div>
