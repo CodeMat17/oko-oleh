@@ -8,7 +8,7 @@ const Header = () => {
         <div className="flex items-center gap-3">
           <Image alt='' priority width={40} height={40} src='/header_logo.webp' className="rounded-full" />
           <div className="leading-4">
-            <p className="tracking-widest text-gray-400">GOODBYE,</p>
+            <p className="tracking-widest text-gray-400 font-semibold">GOODBYE,</p>
             <p>Hori, Oko Agbi Oleh</p>
           </div>
         </div>

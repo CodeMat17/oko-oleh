@@ -13,7 +13,7 @@ const Appreciation = () => {
           width={150}
           height={150}
           src='/oko_appreciation.jpg'
-          className="rounded-full shadow-lg"
+          className="rounded-full shadow-lg w-[150px] h-[200px]"
         />
       </div>
       <div className='mt-8 flex flex-col gap-4 max-w-2xl mx-auto text-lg'>
