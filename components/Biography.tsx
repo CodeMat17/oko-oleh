@@ -7,8 +7,8 @@ const Biography = () => {
         BIOGRAPHY
       </h2>
 
-      <div className='mt-8 max-w-4xl mx-auto space-y-4 rounded-lg'>
-        <div className='bg-sky-50 p-4 rounded-lg shadow-md hover:shadow-lg'>
+      <div className='mt-8 max-w-4xl mx-auto space-y-4 rounded-lg text-lg'>
+        <div className='bg-sky-50 dark:bg-gray-950 p-4 rounded-lg shadow-md hover:shadow-lg'>
           <div className='flex justify-start mb-3'>
             <h3 className='text-sky-500 rounded-lg uppercase text-lg font-medium'>
               Birth and Early Life
@@ -26,7 +26,7 @@ const Biography = () => {
             achievements.
           </p>
         </div>
-        <div className='bg-sky-50 p-4 rounded-lg shadow-md hover:shadow-lg'>
+        <div className='bg-sky-50 dark:bg-gray-950 p-4 rounded-lg shadow-md hover:shadow-lg'>
           <div className='flex justify-start mb-3'>
             <h3 className=' text-sky-500 rounded-lg uppercase text-lg font-medium'>
               Education and Early Achievements
@@ -51,13 +51,13 @@ const Biography = () => {
             insatiable thirst for knowledge led him to write the London General
             Certificate of Education (GCE) in 1967. He passed with exceptional
             results, surpassing his peers worldwide, especially in English
-            Language, earning him the nickname &quot;Imperial Majesty&quot; among his
-            friends and peers. This achievement was so extraordinary that he
-            received a telegram congratulating him with the message,
+            Language, earning him the nickname &quot;Imperial Majesty&quot;
+            among his friends and peers. This achievement was so extraordinary
+            that he received a telegram congratulating him with the message,
             “congratulations most English.”
           </p>
         </div>
-        <div className='bg-sky-50 p-4 rounded-lg shadow-md hover:shadow-lg'>
+        <div className='bg-sky-50 dark:bg-gray-950 p-4 rounded-lg shadow-md hover:shadow-lg'>
           <div className='flex justify-start mb-3'>
             <h3 className='text-sky-500 rounded-lg uppercase text-lg font-medium'>
               Military Service and the Biafran War
@@ -73,14 +73,14 @@ const Biography = () => {
             Army in Onitsha, where his fearless leadership in ambushes and
             victories earned him titles such as “Imperial Son of Darkness” and
             the “Mad Major.” His service was marked by valour, leading Biafran
-            troops to numerous successes. At the war&apos;s end, Chief Oko Oleh was
-            entrusted with the honourable yet somber task of surrendering to the
-            Nigerian troops at Onitsha, where he was subsequently arrested,
+            troops to numerous successes. At the war&apos;s end, Chief Oko Oleh
+            was entrusted with the honourable yet somber task of surrendering to
+            the Nigerian troops at Onitsha, where he was subsequently arrested,
             tried, and acquitted by Colonel Olusegun Obasanjo.
           </p>
         </div>
 
-        <div className='bg-sky-50 p-4 rounded-lg shadow-md hover:shadow-lg'>
+        <div className='bg-sky-50 dark:bg-gray-950 p-4 rounded-lg shadow-md hover:shadow-lg'>
           <div className='flex justify-start mb-3'>
             <h3 className='text-sky-500 rounded-lg uppercase text-lg font-medium'>
               Academic Pursuits and University Life
@@ -97,7 +97,7 @@ const Biography = () => {
             1977.
           </p>
         </div>
-        <div className='bg-sky-50 p-4 rounded-lg shadow-md hover:shadow-lg'>
+        <div className='bg-sky-50 dark:bg-gray-950 p-4 rounded-lg shadow-md hover:shadow-lg'>
           <div className='flex justify-start mb-3'>
             <h3 className='text-sky-500 rounded-lg uppercase text-lg font-medium'>
               Professional Life and Journalism Career
@@ -135,7 +135,7 @@ const Biography = () => {
           </p>
         </div>
 
-        <div className='bg-sky-50 p-4 rounded-lg shadow-md hover:shadow-lg'>
+        <div className='bg-sky-50 dark:bg-gray-950 p-4 rounded-lg shadow-md hover:shadow-lg'>
           <div className='flex justify-start mb-3'>
             <h3 className=' text-sky-500 rounded-lg uppercase text-lg font-medium'>
               Publications and Leadership Roles
@@ -170,7 +170,7 @@ const Biography = () => {
           </p>
         </div>
 
-        <div className='bg-sky-50 p-4 rounded-lg shadow-md hover:shadow-lg'>
+        <div className='bg-sky-50 dark:bg-gray-950 p-4 rounded-lg shadow-md hover:shadow-lg'>
           <div className='flex justify-start mb-3'>
             <h3 className='text-sky-500 rounded-lg uppercase text-lg font-medium'>
               Marriage and Family Life
@@ -189,7 +189,7 @@ const Biography = () => {
           </p>
         </div>
 
-        <div className='bg-sky-50 p-4 rounded-lg shadow-md hover:shadow-lg'>
+        <div className='bg-sky-50 dark:bg-gray-950 p-4 rounded-lg shadow-md hover:shadow-lg'>
           <div className='flex justify-start mb-3'>
             <h3 className='text-sky-500 rounded-lg uppercase text-lg font-medium'>
               Religious Beliefs and Later Life

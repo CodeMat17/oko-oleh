@@ -51,7 +51,7 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
   }, [controls, inView]);
 
   return (
-    <div className='bg-gray-50'>
+    <div className='bg-gray-50 dark:bg-gray-950'>
       <div ref={ref} className='relative py-12 px-4  max-w-6xl mx-auto'>
         <h2 className='text-center text-2xl font-semibold'>
           CONDOLENCE MESSAGES
@@ -82,12 +82,12 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
             </motion.div>
           ))}
         </div>
-        <div className='flex gap-4 justify-end my-4'>
+        <div className='flex gap-4 justify-center my-4'>
           <Button
             onClick={scrollLeft}
             size='icon'
             variant='outline'
-            className='bg-gray-100'>
+            className='bg-sky-500 text-white hover:bg-sky-200 hover:text-sky-600'>
             <ChevronLeftIcon />
           </Button>
 
@@ -95,7 +95,7 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
             onClick={scrollRight}
             size='icon'
             variant='outline'
-            className='bg-gray-100'>
+            className='bg-sky-500 text-white hover:bg-sky-200 hover:text-sky-600'>
             <ChevronRightIcon />
           </Button>
         </div>

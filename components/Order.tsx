@@ -1,6 +1,6 @@
 const Order = () => {
   return (
-    <div className='relative px-4 py-12 max-w-6xl mx-auto '>
+    <div className='relative px-2 py-12 max-w-6xl mx-auto '>
       <h2 className='text-center text-3xl md:text-4xl font-semibold'>
         ORDER OF FUNERAL SERVICE
       </h2>
