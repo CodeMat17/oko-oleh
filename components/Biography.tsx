@@ -3,14 +3,14 @@ import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-w
 const Biography = () => {
   return (
     <BackgroundBeamsWithCollision>
-      <h2 className='text-center text-3xl md:text-4xl font-semibold'>
+      <h2 className='text-center text-2xl tracking-widest md:text-3xl font-semibold'>
         BIOGRAPHY
       </h2>
 
       <div className='mt-8 max-w-4xl mx-auto space-y-4 rounded-lg text-lg'>
         <div className='bg-sky-50 dark:bg-gray-950 p-4 rounded-lg shadow-md hover:shadow-lg'>
           <div className='flex justify-start mb-3'>
-            <h3 className='text-sky-500 rounded-lg uppercase text-lg font-medium'>
+            <h3 className='text-sky-500 rounded-lg uppercase font-medium'>
               Birth and Early Life
             </h3>
           </div>
@@ -28,7 +28,7 @@ const Biography = () => {
         </div>
         <div className='bg-sky-50 dark:bg-gray-950 p-4 rounded-lg shadow-md hover:shadow-lg'>
           <div className='flex justify-start mb-3'>
-            <h3 className=' text-sky-500 rounded-lg uppercase text-lg font-medium'>
+            <h3 className=' text-sky-500 rounded-lg uppercase font-medium'>
               Education and Early Achievements
             </h3>
           </div>

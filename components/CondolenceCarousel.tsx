@@ -53,7 +53,7 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
   return (
     <div className='bg-gray-50 dark:bg-gray-950'>
       <div ref={ref} className='relative py-12 px-4  max-w-6xl mx-auto'>
-        <h2 className='text-center text-2xl font-semibold'>
+        <h2 className='text-center text-2xl md:text-3xl font-semibold'>
           CONDOLENCE MESSAGES
         </h2>
         <div
@@ -87,7 +87,7 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
             onClick={scrollLeft}
             size='icon'
             variant='outline'
-            className='bg-sky-500 text-white hover:bg-sky-200 hover:text-sky-600'>
+            className='bg-sky-500 dark:bg-sky-900 text-white hover:bg-sky-200 hover:text-sky-600'>
             <ChevronLeftIcon />
           </Button>
 
@@ -95,7 +95,7 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
             onClick={scrollRight}
             size='icon'
             variant='outline'
-            className='bg-sky-500 text-white hover:bg-sky-200 hover:text-sky-600'>
+            className='bg-sky-500 dark:bg-sky-900 text-white hover:bg-sky-200 hover:text-sky-600'>
             <ChevronRightIcon />
           </Button>
         </div>

@@ -82,7 +82,7 @@ export const InfiniteMovingCards = ({
     <div
       ref={containerRef}
       className={cn(
-        "scroller relative z-20 max-w-7xl overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
+        "scroller relative z-20 max-w-7xl overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)] ",
         className
       )}>
       <ul
@@ -95,23 +95,24 @@ export const InfiniteMovingCards = ({
         {items.map((item) => (
           <li
             key={item.name}
-            className='w-[350px] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-700 px-8 py-6 md:w-[450px]'
-            style={{
-              background:
-                "linear-gradient(180deg, var(--slate-800), var(--slate-900))",
-            }}>
+            className='w-[350px] max-w-full relative rounded-2xl flex-shrink-0 px-8 py-5 md:w-[450px] border bg-slate-600/10 dark:bg-black/50'
+            // style={{
+            //   background:
+            //     "linear-gradient(180deg, var(--slate-800), var(--slate-500))",
+            // }}
+          >
             <blockquote>
               <div
                 aria-hidden='true'
-                className='user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]'></div>
-              <Facebook className="mb-3 text-blue-500 w-8 h-8" />
-              <span className='relative z-20 leading-[1.6] text-gray-100 font-normal'>
+                className='user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)] '></div>
+              <Facebook className="mb-2 text-blue-500 w-8 h-8" />
+              <span className='relative z-20 leading-[1.6] text-gray-700 dark:text-gray-100 font-normal'>
                 {item.quote}
               </span>
-              <div className='relative z-20 mt-6 flex flex-row items-center'>
-                <div className='flex flex-col gap-1'>
-                  <Image alt="" priority width={20} height={20} src={item.img} className="w-[80px] aspect-square rounded-full" />
-                  <span className='text-lg leading-[1.6] text-gray-400 font-normal'>
+              <div className='relative z-20 mt-4 flex flex-row items-center'>
+                <div className='flex items-center gap-2'>
+                  <Image alt="" priority width={20} height={20} src={item.img} className="w-[60px] aspect-square rounded-full" />
+                  <span className='text-lg leading-[1.6] text-gray-600 dark:text-gray-400 font-normal'>
                     {item.name}
                   </span>
                 </div>

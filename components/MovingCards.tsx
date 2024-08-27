@@ -7,7 +7,7 @@ export function MovingCards() {
     <div
       className='py-12
      rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden'>
-      <h2 className='text-center text-3xl md:text-4xl font-semibold mb-8'>
+      <h2 className='text-center text-2xl md:text-3xl font-semibold mb-8'>
         COMMENTS FROM FACEBOOK USERS
       </h2>
       <InfiniteMovingCards
@@ -54,7 +54,7 @@ const testimonials = [
   {
     quote: "Ogo rest in peace",
     name: "Onovo Michael",
-     img: '/fb_users/pastor_m',
+     img: '/fb_users/pastor_m.jpg',
   },
   {
     quote: "A Legend indeed! Rest on Sir.",

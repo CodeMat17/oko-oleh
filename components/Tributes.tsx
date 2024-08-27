@@ -34,7 +34,7 @@ const Tributes = ({ tributes }: CarouselProps) => {
   return (
     <div className='bg-gray-100 dark:bg-gray-950'>
       <div className='relative px-2 py-12 max-w-6xl mx-auto '>
-        <h2 className='text-center text-3xl md:text-4xl font-semibold'>
+        <h2 className='text-center text-2xl md:text-3xl tracking-widest font-semibold'>
           TRIBUTES
         </h2>
 
@@ -44,13 +44,13 @@ const Tributes = ({ tributes }: CarouselProps) => {
           {tributes.map((tribute, index) => (
             <motion.div
               key={index}
-              className='relative min-w-[300px] flex-shrink-0 p-2 my-4 bg-white dark:bg-gray-800/20  rounded-xl shadow-lg '
+              className='relative min-w-[300px] flex-shrink-0 p-2 my-4 bg-white dark:bg-gray-800/20  rounded-2xl shadow-lg '
               initial={{ opacity: 0, x: 100 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}>
-              <ScrollArea className='relative text-gray-700 dark:text-gray-300 h-[300px] w-full max-w-xs sm:max-w-sm md:max-w-md mx-auto rounded-md px-4 pb-4 pt-1 border'>
+              <ScrollArea className='relative text-gray-700 dark:text-gray-300 h-[300px] w-full max-w-xs sm:max-w-sm md:max-w-md mx-auto rounded-2xl px-4 pb-4 pt-1 border'>
                 <div className=' flex justify-end'>
-                  <p className='bg-sky-500 text-xs text-sky-50 px-1 pb-0.5 rounded-full italic'>
+                  <p className='bg-sky-500 dark:bg-sky-900 text-xs text-sky-50 mt-2 px-1.5 py-0.5 rounded-full italic'>
                     Scroll to read more
                   </p>
                 </div>
@@ -73,7 +73,7 @@ const Tributes = ({ tributes }: CarouselProps) => {
             onClick={scrollLeft}
             size='icon'
             variant='outline'
-            className='bg-sky-600 text-white hover:bg-sky-200 hover:text-sky-600'>
+            className='bg-sky-600 dark:bg-sky-900 text-white hover:bg-sky-200 hover:text-sky-600'>
             <ChevronLeftIcon />
           </Button>
 
@@ -81,7 +81,7 @@ const Tributes = ({ tributes }: CarouselProps) => {
             onClick={scrollRight}
             size='icon'
             variant='outline'
-            className='bg-sky-600 text-white hover:bg-sky-200 hover:text-sky-600'>
+            className='bg-sky-600 dark:bg-sky-900 text-white hover:bg-sky-200 hover:text-sky-600'>
             <ChevronRightIcon />
           </Button>
         </div>
