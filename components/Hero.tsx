@@ -9,7 +9,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className='py-6 w-full bg-gray-800  dark:bg-grid-white/[0.1] bg-grid-white/[0.2] relative flex flex-col sm:flex-row items-center lg:justify-around'>
+      <div className='py-6 w-full bg-gray-800  dark:bg-grid-white/[0.1] bg-grid-white/[0.1] relative flex flex-col sm:flex-row items-center lg:justify-around'>
         {/* Radial gradient for the container to give a faded look */}
         <div className='absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_10%,black)]'></div>
 
@@ -32,12 +32,13 @@ const Hero = () => {
               <FlipWords words={words} />
             </div>
           </div>
-          <div className='text-center '>
+          <div className='relative text-center '>
             <p className='text-3xl text-white font-medium'>Late Chief</p>
             <h1
-              className={`${rock_salt.className} px-2 mt-2.5 text-[33px] sm:text-5xl lg:text-6xl font-extrabold text-sky-500`}>
+              className={`${rock_salt.className}  px-2 mt-2.5 text-[33px] sm:text-5xl lg:text-6xl font-extrabold text-sky-500`}>
               HORI OKO AGBI OLEH
             </h1>
+           
           </div>
         </div>
       </div>
