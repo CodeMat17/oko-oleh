@@ -5,7 +5,7 @@ import Image from "next/image";
 const rock_salt = Rock_Salt({ subsets: ["latin"], weight: "400" });
 
 const Hero = () => {
-  const words = ["rare gem", "legend", "hero of two wars"];
+  const words = ["a rare gem", "a legend", "a hero of two wars"];
 
   return (
     <>
@@ -18,16 +18,16 @@ const Hero = () => {
           <Image
             alt=''
             priority
-            width={80}
-            height={80}
+            width={70}
+            height={70}
             src='/cross.gif'
             className='absolute top-2 left-4'
           />
         </div>
-        <div className='lg:mr-4 space-y-12 mt-8'>
+        <div className='lg:mr-4 space-y-12 mt-8 py-6'>
           <div className='relative py-4 flex justify-center items-center px-4 text-center'>
             <div className='absolute text-3xl mx-auto font-medium text-neutral-300 dark:text-neutral-400'>
-              The exit of a
+              The exit of
               <br />
               <FlipWords words={words} />
             </div>
@@ -38,7 +38,6 @@ const Hero = () => {
               className={`${rock_salt.className}  px-2 mt-2.5 text-[33px] sm:text-5xl lg:text-6xl font-extrabold text-sky-500`}>
               HORI OKO AGBI OLEH
             </h1>
-           
           </div>
         </div>
       </div>
