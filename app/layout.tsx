@@ -9,17 +9,17 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "GOODBYE, OKO OLEH",
+  title: "GOODBYE, Chief Hori, OKO OLEH",
   description:
     "This is the official website for the funeral service of Chief Hori Oko Agbi Oleh. Developed by his son-in-law, Engr. Chukwu Matthew.",
   twitter: {
     card: "summary",
-    title: "GOODBYE, OKO OLEH",
+    title: "GOODBYE, Chief Hori, OKO OLEH",
     description:
       "This is the official website for the funeral service of Chief Hori Oko Agbi Oleh. Developed by his son-in-law, Engr. Chukwu Matthew.",
   },
   openGraph: {
-    title: "GOODBYE, OKO OLEH",
+    title: "GOODBYE, Chief Hori, OKO OLEH",
     description:
       "This is the official website for the funeral service of Chief Hori Oko Agbi Oleh. Developed by his son-in-law, Engr. Chukwu Matthew.",
     url: "https://oko-oleh.vercel.app",

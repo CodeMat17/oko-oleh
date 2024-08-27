@@ -3,7 +3,11 @@ import Image from "next/image";
 const Advert = () => {
   return (
     <div className='px-2 py-20'>
-      <p className='font-medium text-4xl text-center'>ADVERTISEMENT</p>
+
+      <h2 className='text-center text-3xl md:text-4xl font-semibold'>
+        ADVERTISEMENT
+      </h2>
+
       <div className='mt-8 w-full max-w-lg mx-auto flex justify-center'>
         <Image
           alt=''
