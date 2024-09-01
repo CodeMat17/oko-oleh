@@ -22,6 +22,11 @@ const Ministers = () => {
           <Award className='w-5 h-5 mt-1 text-sky-600' />{" "}
           <p>Pastor Israel Ukor</p>
         </div>
+
+        <div className='flex items-center justify-center gap-1'>
+          <Award className='w-5 h-5 mt-1 text-sky-600' />{" "}
+          <p>Pastor Blossom Okoye</p>
+        </div>
       </div>
     </div>
   );

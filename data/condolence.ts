@@ -79,4 +79,5 @@ export const images = [
     title: "Image 31",
   },
   { src: "/pdfs/36Mrs_Mary_Oko_Oleh_1[1][1].webp", title: "Image 32" },
+  { src: "/pdfs/info_comm.webp", title: "Image 33" },
 ];
