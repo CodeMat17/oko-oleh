@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "GOODBYE, Chief Hori, OKO OLEH",
     description:
       "This is the official website for the funeral service of Chief Hori Oko Agbi Oleh. Developed by his son-in-law, Engr. Chukwu Matthew.",
-    url: "https://oko-oleh.vercel.app",
+    url: "https://www.oko-oleh.com.ng",
     // siteName: "Portfolio website",
     images: [
       {
