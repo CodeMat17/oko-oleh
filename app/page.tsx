@@ -13,19 +13,23 @@ import { images } from "@/data/condolence";
 import { tributes } from "@/data/tributes";
 
 const Home = () => {
+
   return (
     <div>
-      <Hero />
-      <Order />
-      <Ministers />
-      <Biography />
-      <Tributes tributes={tributes} />
-      <CondolenceCarousel images={images} />
+      <div className="w-full h-screen text-center px-4 py-32 text-3xl font-medium tracking-wide">
+        Coming Soon!
+      </div>
+      {/* <Hero /> */}
+      {/* <Order /> */}
+      {/* <Ministers /> */}
+      {/* <Biography /> */}
+      {/* <Tributes tributes={tributes} /> */}
+      {/* <CondolenceCarousel images={images} /> */}
     
-      <MovingCards />
-      <Appreciation />
-      <Advert />
-      <Footer />
+      {/* <MovingCards /> */}
+      {/* <Appreciation /> */}
+      {/* <Advert /> */}
+      {/* <Footer /> */}
     </div>
   );
 };

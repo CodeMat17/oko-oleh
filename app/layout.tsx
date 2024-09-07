@@ -59,7 +59,7 @@ export default function RootLayout({
           defaultTheme='system'
           enableSystem
           disableTransitionOnChange>
-          <Header />
+          {/* <Header /> */}
           <main>{children}</main>
         </ThemeProvider>
       </body>
