@@ -3,6 +3,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
+
 const letterVariants = {
   hidden: { opacity: 0, x: -50 }, // Start off-screen to the left
   visible: {
@@ -43,7 +44,7 @@ const Order = () => {
             transition: { staggerChildren: 0.1 }, // Delay between letters
           },
         }}
-        className={`text-center text-3xl font-semibold text-black dark:text-white md:leading-[5rem]`}>
+        className={` text-center text-4xl font-semibold text-black dark:text-white md:leading-[5rem]`}>
         {headerText.split("").map((char, i) => (
           <motion.span key={i} variants={letterVariants}>
             {char}

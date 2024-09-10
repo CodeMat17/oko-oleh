@@ -18,7 +18,7 @@ const Hero = () => {
           <Image
             alt=''
             quality={100}
-            sizes='(max-width: 768px) 100vw, 400px'
+            sizes='(max-width: 768px) 100vw, 50vw'
             priority
             width={400}
             height={450}

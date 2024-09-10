@@ -2,6 +2,9 @@ import Image from "next/image";
 import { ModeToggle } from "./ModeToggle";
 import MobileNav from "./MobileNav";
 import DesktopNav from "./DesktopNav";
+import { Sacramento } from "next/font/google";
+
+const sacramento = Sacramento({ subsets: ["latin"], weight: ["400"] });
 
 const Header = () => {
   return (
@@ -13,18 +16,19 @@ const Header = () => {
             priority
             width={40}
             height={40}
-            sizes="(max-width: 768px) 50vw"
+            sizes='(max-width: 768px) 50vw'
             src='/header_logo.webp'
             className='rounded-full'
           />
           <div className='leading-5 text-lg'>
-            <p className='tracking-widest text-gray-400 font-semibold'>
-              GOODBYE,
+            <p
+              className={`${sacramento.className} text-4xl tracking-widest text-gray-400 font-semibold`}>
+              Goodbye,
             </p>
             <p>Hori, Oko Agbi Oleh</p>
           </div>
         </div>
-        <div className="flex items-center gap-4">
+        <div className='flex items-center gap-4'>
           <ModeToggle />
           <MobileNav />
           <DesktopNav />
