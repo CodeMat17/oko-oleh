@@ -1,3 +1,4 @@
+import { BackgroundLines } from "@/components/ui/background-lines";
 import { FlipWords } from "@/components/ui/flip-words";
 import { Rock_Salt } from "next/font/google";
 import Image from "next/image";
@@ -9,22 +10,34 @@ const Hero = () => {
 
   return (
     <>
-      <div className='py-6 w-full bg-gray-800  dark:bg-grid-white/[0.1] bg-grid-white/[0.1] relative flex flex-col sm:flex-row items-center lg:justify-around'>
+      <div id='home' className='scroll-mt-16 sm:scroll-mt-20 py-6 w-full bg-gray-800  dark:bg-grid-white/[0.1] bg-grid-white/[0.1] relative flex flex-col sm:flex-row items-center lg:justify-around'>
         {/* Radial gradient for the container to give a faded look */}
         <div className='absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_10%,black)]'></div>
 
         <div className='relative'>
-          <Image alt='' priority width={400} height={450} src='/oko.webp' />
+          <Image
+            alt=''
+            quality={100}
+            sizes='(max-width: 768px) 100vw, 400px'
+            priority
+            width={400}
+            height={450}
+            // style={{ width: "auto", height: "auto" }}
+            src='/oko.webp'
+            className="w-full"
+          />
           <Image
             alt=''
             priority
             width={70}
             height={70}
+            quality={100}
+            sizes='(max-width: 768px) 50vw'
             src='/cross.gif'
-            className='absolute top-2 left-4'
+            className='absolute top-0 -left-4'
           />
         </div>
-        <div className='lg:mr-4 space-y-12 mt-8 py-6'>
+        <BackgroundLines className='lg:mr-4 space-y-12 mt-2 py-6'>
           <div className='relative py-4 flex justify-center items-center px-4 text-center'>
             <div className='absolute text-3xl mx-auto font-medium text-neutral-300 dark:text-neutral-400'>
               The exit of
@@ -39,7 +52,7 @@ const Hero = () => {
               HORI OKO AGBI OLEH
             </h1>
           </div>
-        </div>
+        </BackgroundLines>
       </div>
     </>
   );

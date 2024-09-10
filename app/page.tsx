@@ -4,32 +4,31 @@ import Biography from "@/components/Biography";
 import CondolenceCarousel from "@/components/CondolenceCarousel";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
-
 import Ministers from "@/components/Ministers";
-import { MovingCards } from "@/components/MovingCards";
 import Order from "@/components/Order";
+import { SurvivedBy } from "@/components/SurvivedBy";
 import Tributes from "@/components/Tributes";
 import { images } from "@/data/condolence";
 import { tributes } from "@/data/tributes";
+import Gallery from "@/components/Gallery";
+import { FbComments } from "@/components/FbComments";
 
 const Home = () => {
 
   return (
     <div>
-      <div className="w-full h-screen text-center px-4 py-32 text-3xl font-medium tracking-wide">
-        Coming Soon!
-      </div>
-      {/* <Hero /> */}
-      {/* <Order /> */}
-      {/* <Ministers /> */}
-      {/* <Biography /> */}
-      {/* <Tributes tributes={tributes} /> */}
-      {/* <CondolenceCarousel images={images} /> */}
-    
-      {/* <MovingCards /> */}
-      {/* <Appreciation /> */}
-      {/* <Advert /> */}
-      {/* <Footer /> */}
+      <Hero />
+      <Order />
+      <Ministers />
+      <Biography />
+      <SurvivedBy />
+      <Tributes tributes={tributes} />
+      <CondolenceCarousel images={images} />
+      <Gallery />
+      <FbComments />
+      <Appreciation />
+      <Advert />
+      <Footer />
     </div>
   );
 };

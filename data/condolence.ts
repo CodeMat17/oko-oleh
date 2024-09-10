@@ -80,4 +80,7 @@ export const images = [
   },
   { src: "/pdfs/36Mrs_Mary_Oko_Oleh_1[1][1].webp", title: "Image 32" },
   { src: "/pdfs/info_comm.webp", title: "Image 33" },
+  { src: "/pdfs/new_1.webp", title: "new_1" },
+  { src: "/pdfs/new_2.webp", title: "new_2" },
+  { src: "/pdfs/new_3.webp", title: "new_3" },
 ];
