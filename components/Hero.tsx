@@ -18,13 +18,12 @@ const Hero = () => {
           <Image
             alt=''
             quality={100}
-            sizes='(max-width: 768px) 100vw, 50vw'
+            // sizes='(max-width: 768px) 100vw, 50vw'
             priority
-            width={400}
+            width={500}
             height={450}
-            // style={{ width: "auto", height: "auto" }}
             src='/oko.webp'
-            className="w-full"
+            className="w-full aspect-square object-cover"
           />
           <Image
             alt=''
@@ -34,7 +33,7 @@ const Hero = () => {
             quality={100}
             sizes='(max-width: 768px) 50vw'
             src='/cross.gif'
-            className='absolute top-0 -left-4'
+            className='absolute top-0 left-0'
           />
         </div>
         <BackgroundLines className='lg:mr-4 space-y-12 mt-2 py-6'>
