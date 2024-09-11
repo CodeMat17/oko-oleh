@@ -21,10 +21,12 @@ const Hero = () => {
             // sizes='(max-width: 768px) 100vw, 50vw'
             priority
             width={500}
-            height={450}
+            height={500}
             src='/oko.webp'
-            className="w-full aspect-square object-cover"
+            className=" object-cover "
           />
+          {/* <Image alt="" priority width={400} height={400} src='/oko.webp' className="object-cover" /> */}
+
           <Image
             alt=''
             priority
