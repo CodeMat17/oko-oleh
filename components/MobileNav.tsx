@@ -15,7 +15,7 @@ const MobileNav = () => {
   const [open, setOpen] = useState(false);
 
     return (
-      <div className="lg:hidden">
+      <div className='lg:hidden'>
         <DropdownMenu open={open} onOpenChange={setOpen}>
           <DropdownMenuTrigger asChild>
             <Button
@@ -26,41 +26,59 @@ const MobileNav = () => {
               {open ? <X className='text-red-500' /> : <AlignRight />}
             </Button>
           </DropdownMenuTrigger>
-          <DropdownMenuContent className='mr-4'>
-            <Link href='#home' className='text-xl font-medium'>
-              <DropdownMenuItem>HOME</DropdownMenuItem>
+          <DropdownMenuContent className='mr-4 space-y-4'>
+            <Link href='#home'>
+              <DropdownMenuItem className='text-2xl tracking-wide font-medium'>
+                HOME
+              </DropdownMenuItem>
             </Link>
 
-            <Link href='#order' className='text-xl font-medium'>
-              <DropdownMenuItem>ORDER OF SERVICE</DropdownMenuItem>
+            <Link href='#order'>
+              <DropdownMenuItem className='text-2xl tracking-wide font-medium'>
+                ORDER OF SERVICE
+              </DropdownMenuItem>
             </Link>
 
-            <Link href='#ministers' className='text-xl font-medium'>
-              <DropdownMenuItem>MINISTERS</DropdownMenuItem>
+            <Link href='#ministers'>
+              <DropdownMenuItem className='text-2xl tracking-wide font-medium'>
+                MINISTERS
+              </DropdownMenuItem>
             </Link>
 
-            <Link href='#bio' className='text-xl font-medium'>
-              <DropdownMenuItem>BIOGRAPHY</DropdownMenuItem>
+            <Link href='#bio'>
+              <DropdownMenuItem className='text-2xl tracking-wide font-medium'>
+                BIOGRAPHY
+              </DropdownMenuItem>
             </Link>
 
-            <Link href='#survive' className='text-xl font-medium'>
-              <DropdownMenuItem>SURVIVED BY</DropdownMenuItem>
+            <Link href='#survive'>
+              <DropdownMenuItem className='text-2xl tracking-wide font-medium'>
+                SURVIVED BY
+              </DropdownMenuItem>
             </Link>
 
-            <Link href='#tributes' className='text-xl font-medium'>
-              <DropdownMenuItem>TRIBUTES</DropdownMenuItem>
+            <Link href='#tributes'>
+              <DropdownMenuItem className='text-2xl tracking-wide font-medium'>
+                TRIBUTES
+              </DropdownMenuItem>
             </Link>
 
-            <Link href='#condolences' className='text-xl font-medium'>
-              <DropdownMenuItem>CONDOLENCES</DropdownMenuItem>
+            <Link href='#condolences'>
+              <DropdownMenuItem className='text-2xl tracking-wide font-medium'>
+                CONDOLENCES
+              </DropdownMenuItem>
             </Link>
 
-            <Link href='#gallery' className='text-xl font-medium'>
-              <DropdownMenuItem>GALLERY</DropdownMenuItem>
+            <Link href='#gallery'>
+              <DropdownMenuItem className='text-2xl tracking-wide font-medium'>
+                GALLERY
+              </DropdownMenuItem>
             </Link>
 
-            <Link href='#comments' className='text-xl font-medium'>
-              <DropdownMenuItem>FB COMMENTS</DropdownMenuItem>
+            <Link href='#comments' >
+              <DropdownMenuItem className='text-2xl tracking-wide font-medium'>
+                FB COMMENTS
+              </DropdownMenuItem>
             </Link>
           </DropdownMenuContent>
         </DropdownMenu>
